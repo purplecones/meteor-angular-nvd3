@@ -2,7 +2,7 @@ Package.describe({
   name: 'purplecones:angular-nvd3',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'An AngularJS directive for NVD3 re-usable charting library (based on D3). Easily customize your charts via JSON API.calculations. ',
+  summary: 'An AngularJS directive for NVD3 re-usable charting library (based on D3).',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/purplecones/meteor-angular-nvd3.git',
   // By default, Meteor will default to using README.md for documentation.
