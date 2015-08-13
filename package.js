@@ -1,6 +1,6 @@
 Package.describe({
   name: 'purplecones:angular-nvd3',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'An AngularJS directive for NVD3 re-usable charting library (based on D3).',
   git: 'https://github.com/purplecones/meteor-angular-nvd3.git',
   documentation: 'README.md'
@@ -17,4 +17,5 @@ Package.onTest(function(api) {
   api.use('tinytest');
   api.use('purplecones:angular-nvd3');
   api.addFiles('angular-nvd3-tests.js');
+  api.use('d3', 'client');
 });
